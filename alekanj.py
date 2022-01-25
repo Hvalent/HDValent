@@ -16,7 +16,7 @@ else :
 os.system("clear")
 print("DDOS TOOLS")
 print("VAL.")
-print("HD COMMUNITY")
+print("DON'T ABUSE!!!")
 ip = str(input(" Ip:"))
 port = int(input("  Port:"))
 choice = str(input(" Gas Serang? (y/n):"))
